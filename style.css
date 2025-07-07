@@ -3,15 +3,22 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('petir33-bg-1500x1500.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
   color: #FFD700;
+}
+
+.header {
   text-align: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  backdrop-filter: brightness(0.9);
+  padding: 40px 20px;
+  background-color: #000;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 25px #FFD700;
 }
 
 h1 {
@@ -22,22 +29,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #FFF700;
+  font-size: 1.4rem;
   margin-bottom: 20px;
   text-shadow: 1px 1px 3px black;
-}
-
-.desc {
-  font-size: 1.1rem;
-  font-weight: 400;
-  max-width: 800px;
-  margin: 0 auto 30px auto;
-  padding: 0 20px;
-  line-height: 1.6;
-  color: #fffdd0;
-  text-shadow: 1px 1px 3px #000;
 }
 
 .cta-buttons {
@@ -45,6 +39,7 @@ h2 {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .btn {
@@ -64,4 +59,30 @@ h2 {
 
 .secondary {
   background: linear-gradient(to right, white, silver);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #f6e27a;
+  background: #111111;
+  border-top: 1px solid #FFD700;
+  border-bottom: 1px solid #FFD700;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
+}
+
+.content h3 {
+  color: #FFD700;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.content p, .content ul {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+ul {
+  text-align: left;
 }
