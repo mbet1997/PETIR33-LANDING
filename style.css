@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #000000, #1a1a1a);
+  color: white;
+  text-align: center;
+}
+.hero {
+  padding: 80px 20px;
+}
+h1 {
+  font-size: 3em;
+  color: #FFD700;
+  text-shadow: 2px 2px #ff0000;
+}
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.cta-button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #ffcc00, #ff0066);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 50px;
+  box-shadow: 0 0 15px #ff0066;
+  transition: transform 0.2s ease;
+}
+.cta-button:hover {
+  transform: scale(1.05);
+}
+.footer {
+  margin-top: 80px;
+  font-size: 0.9em;
+  color: #888;
+}
