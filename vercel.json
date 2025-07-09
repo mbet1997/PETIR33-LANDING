@@ -5,7 +5,7 @@
       "has": [
         {
           "type": "host",
-          "value": "petir-33.vercel.app"
+          "value": "petir-33-landing.vercel.app"
         }
       ],
       "destination": "https://petir33.asia/:path*",
