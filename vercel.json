@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "petir-33.vercel.app"
+        }
+      ],
+      "destination": "https://petir33.asia/:1",
+      "permanent": true
+    }
+  ]
+}
