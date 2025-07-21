@@ -1,11 +1,17 @@
 {
+  "rewrites": [
+    {
+      "source": "/amp",
+      "destination": "/amp.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/:path*",
       "has": [
         {
           "type": "host",
-          "value": "petir-33-landing.vercel.app"
+          "value": "petir33-landing.vercel.app"
         }
       ],
       "destination": "https://petir33.asia/:path*",
